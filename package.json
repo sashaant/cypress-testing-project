@@ -4,12 +4,19 @@
   "description": "cypress automation practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sashaant/cypress-silkpadize.git"
   },
+
+  "keywords": [
+    "testing",
+    "cypress",
+    "automation"
+  ],
   "author": "Sasha Antonenko <antonenko.qa@gmail.com>",
   "license": "ISC",
   "bugs": {
