@@ -18,5 +18,8 @@
   "homepage": "https://github.com/sashaant/cypress-silkpadize#readme",
   "devDependencies": {
     "cypress": "^6.5.0"
+  },
+  "dependencies": {
+    "prettier": "^2.2.1"
   }
 }
