@@ -9,7 +9,7 @@ describe('My First Test', () => {
 })
 
 describe('My First Test', () => {
-  it('True should be true!', () => {
-    expect(true).to.equal(false)
+  it('False should be false!', () => {
+    expect(false).to.equal(false)
   })
 })
