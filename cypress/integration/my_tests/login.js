@@ -1,6 +1,8 @@
 describe('working with inputs', () => {
     it('should load login page',() => {
         cy.visit('http://zero.webappsecurity.com/login.html')
+        cy.clearCookies({log: true})
+        cy.clearLocalStorage('your item', {log: true})
     })
     it('should fill username ', () => {
             cy.get('#user_login').as('username')
