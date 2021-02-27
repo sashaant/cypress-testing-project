@@ -3,13 +3,15 @@ describe('working with inputs', () => {
         cy.visit('http://zero.webappsecurity.com/login.html')
     })
     it('should fill username ', () => {
-            cy.get('#user_login').clear()
-            cy.get('#user_login').type('Some Invalid Name')
+            cy.get('#user_login').as('username')
+            cy.get('@username').clear()
+            cy.get('@username').type('Some Invalid Name')
     })
 
     it('should fill password ', () => {
-        cy.get('#user_password').clear()
-        cy.get('#user_password').type('Some Invalid password')
+        cy.get('#user_password').as('password')
+        cy.get('@password').clear()
+        cy.get('@password').type('Some Invalid password')
        
     })
 
@@ -23,7 +25,9 @@ describe('working with inputs', () => {
     })
 
     it('should display error message', () => {
-        cy.get('.alert-error').should('be.visible')
+        cy.get('.alert-error')
+            .should('be.visible')
+            .and('contain', 'Login and/or password are wrong.')
     })
 })
 
