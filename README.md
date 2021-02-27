@@ -1,5 +1,5 @@
 # cypress-testing-project
-cypress_automation_practice, silkpadize.com.ua
+cypress_automation_practice
 
 
 Setup guide:
