@@ -1,4 +1,4 @@
-# cypress-silkpadize
+# cypress-testing-project
 cypress_automation_practice, silkpadize.com.ua
 
 
