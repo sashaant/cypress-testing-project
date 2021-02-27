@@ -8,5 +8,6 @@ describe('Browser actions', () => {
     })
 
     //it('should check for correct element on the page', () => {
-        //cy.get(.normal-logo).should('be.visible')  
+      //  cy.get(.logo-wrapper).should('be.visible')  
+    //})
 })
