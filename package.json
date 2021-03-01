@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/sashaant/cypress-silkpadize#readme",
   "devDependencies": {
-    "cypress": "^6.5.0",
+    "cypress": "^6.6.0",
     "typescript": "^4.2.2"
   },
   "dependencies": {
