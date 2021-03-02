@@ -1,4 +1,4 @@
-describe('Browser actions', () => {
+/*describe('Browser actions', () => {
     it('should load the correct url', () => {
         cy.visit('https://silkparadize.com.ua',{Timeout:10000})
     })
@@ -11,3 +11,5 @@ describe('Browser actions', () => {
       //  cy.get(.logo-wrapper).should('be.visible')  
     //})
 })
+
+*/
