@@ -42,15 +42,21 @@ describe('Abstraction with Classes', () => {
     afterEach(function () {
         //runs after each it block in the describe  
     })
-
-
-
-    it('should scroll down and up on the page', () =>{
+    it.skip('should scroll down and up on the page', () =>{
        HomePage.loadHomePage()
        HomePage.scrollToBotton()
        HomePage.wait(5000)
        HomePage.scrollToTop()
        HomePage.wait(5000)
-
     })
+
+
+    it('should scroll down and up on the page', () =>{
+        HomePage.loadHomePage()
+        HomePage.scrollToBotton()
+        HomePage.wait(5000)
+        HomePage.scrollToTop()
+        HomePage.wait(5000)
+     })
 })
+
