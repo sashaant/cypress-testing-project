@@ -1,5 +1,4 @@
 # cypress-testing-project
-cypress_automation_practice
 
 
 Setup guide:
